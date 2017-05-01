@@ -7,9 +7,11 @@ $(function(){
       window.alert('Nope');
     } else {
     if (turn % 2 === 0) {
-      $(this).addClass('x')
+      $(this).addClass('x');
+      $(this).text("X")
     } else {
       $(this).addClass('o');
+      $(this).text("O")
     }
     turn++;
     }

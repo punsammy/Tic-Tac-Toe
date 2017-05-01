@@ -11,7 +11,15 @@
   height: 150px;
   width: 150px;
   background-color: blue;
-  display: inline-block;
+  display: inline;
+  float: left;
+  border: 2px solid white;
+  text-align: center;
+  font-size: 150px;
+}
+
+#top-left, #middle-left, #bottom-left {
+  clear: both;
 }
 
 .x {
