@@ -1,1 +1,23 @@
+.game {
+  text-align: center;
+}
 
+.grid {
+  width: 500px;
+  margin: auto;
+}
+
+.cell {
+  height: 150px;
+  width: 150px;
+  background-color: blue;
+  display: inline-block;
+}
+
+.x {
+  background-color: yellow;
+}
+
+.o {
+  background-color: red;
+}
